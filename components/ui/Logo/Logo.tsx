@@ -1,21 +1,15 @@
 const Logo = ({ className = '', ...props }) => (
-  <svg
-    width="32"
-    height="32"
-    viewBox="0 0 32 32"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    className={className}
-    {...props}
-  >
-    <rect width="100%" height="100%" rx="16" fill="var(--secondary)" />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-      fill="var(--primary)"
-    />
-  </svg>
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    aria-hidden="true" 
+    role="img" 
+    className="iconify iconify--mdi" 
+    width="32" 
+    height="32" 
+    preserveAspectRatio="xMidYMid meet" 
+    viewBox="0 0 24 24">
+        <path d="M9 7h6v2h-2v8h-2V9H9V7m3-5a10 10 0 0 1 10 10a10 10 0 0 1-10 10A10 10 0 0 1 2 12A10 10 0 0 1 12 2m0 2a8 8 0 0 0-8 8a8 8 0 0 0 8 8a8 8 0 0 0 8-8a8 8 0 0 0-8-8z" fill="currentColor"></path>
+        </svg>
 )
 
 export default Logo
